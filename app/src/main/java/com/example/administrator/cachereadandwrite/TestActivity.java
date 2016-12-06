@@ -69,9 +69,9 @@ public class TestActivity extends Activity{
             out = new FileOutputStream(file);
             ObjectOutputStream objOut=new ObjectOutputStream(out);
             List<Person> list=new ArrayList<Person>();
-            list.add(new Person("小白",17,"北京","小学","1","男"));
-            list.add(new Person("小红",18,"上海","中学","2","女"));
-            list.add(new Person("小兰",19,"广州","大学","3","男"));
+            list.add(new Person("小白",17,"北京"));
+            list.add(new Person("小红",18,"上海"));
+            list.add(new Person("小兰",19,"广州"));
             map.put("person",list);
             List<User> list1=new ArrayList<User>();
             list1.add(new User("小黑",20));

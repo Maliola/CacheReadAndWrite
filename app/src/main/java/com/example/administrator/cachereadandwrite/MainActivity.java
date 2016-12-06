@@ -18,8 +18,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 public class MainActivity extends AppCompatActivity {
-    /*long startTime = 0l;
-    long endTime = 0l;*/
     TextView show;
 
     @Override
@@ -82,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.button1:
                 try {
-                    saveObject(serialize(new Person("LULU",20,"北京淀","学","112","bch")));
+                    saveObject(serialize(new Person("小白",20,"朝阳")));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
