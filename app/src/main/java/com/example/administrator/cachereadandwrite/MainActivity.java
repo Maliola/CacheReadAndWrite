@@ -1,10 +1,8 @@
 package com.example.administrator.cachereadandwrite;
 
 import android.content.SharedPreferences;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -12,11 +10,8 @@ import com.example.administrator.cachereadandwrite.bean.Person;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.UnsupportedEncodingException;
 
 public class MainActivity extends AppCompatActivity {
     TextView show;
